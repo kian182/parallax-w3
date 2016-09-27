@@ -1,0 +1,145 @@
+/*assets/fonts*/
+@font-face {
+  font-family: 'AdventPro-Bold';
+  src: url('assets/fonts/advent-pro/AdventPro-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-Bold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-Bold.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Bold.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Bold.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-ExtraLight';
+  src: url('assets/fonts/advent-pro/AdventPro-ExtraLight.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-ExtraLight.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-ExtraLight.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-ExtraLight.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-Light';
+  src: url('assets/fonts/advent-pro/AdventPro-Light.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-Light.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-Light.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Light.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Light.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-Medium';
+  src: url('assets/fonts/advent-pro/AdventPro-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-Medium.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-Medium.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Medium.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Medium.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-Regular';
+  src: url('assets/fonts/advent-pro/AdventPro-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-Regular.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-Regular.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Regular.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Regular.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-SemiBold';
+  src: url('assets/fonts/advent-pro/AdventPro-SemiBold.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-SemiBoldold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-SemiBold.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-SemiBold.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-SemiBold.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AdventPro-Thin';
+  src: url('assets/fonts/advent-pro/AdventPro-Thin.ttf'); /* IE9 Compat Modes */
+  src: url('assets/fonts/advent-pro/AdventPro-Thin.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/advent-pro/AdventPro-Thin.ttf') format('ttf'), /* Super Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Thin.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('assets/fonts/advent-pro/AdventPro-Thin.eot.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100% !important;
+}
+
+.parallax {    
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fullsize{
+  background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+.box{
+    height: 50%
+}
+
+.box div{
+    padding-top: 15vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.box div h1{
+    text-align: center;
+    color: black    ;
+    font: normal 60px 'AdventPro-Bold','Droid Serif', sans-serif;
+}
+
+.box-inverse{
+  background-color: black;
+}
+.box-inverse div h1{
+  color: white; 
+}
+
+/*Section-1*/
+
+#section-1{
+    padding-top: 40vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#section-1 h1{
+    text-align: center;
+    color: #fff;
+    font: normal 60px 'AdventPro-Bold','Droid Serif', sans-serif;
+    background-color: rgba(0,0,0,0.5);   
+}
+
+/*Section-2*/
+
+#section-3{
+    padding-top: 40vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#section-3 h1{
+    text-align: center;
+    color: #fff;
+    font: normal 60px 'AdventPro-Bold','Droid Serif', sans-serif;
+    background-color: rgba(0,0,0,0.5);   
+}
